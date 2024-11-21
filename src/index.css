@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --gradient: linear-gradient(90deg, #3b82f6, #8b5cf6, #3b82f6);
+  --gradient: linear-gradient(90deg, #d3d3d3, #a9a9a9, #d3d3d3); /* Muted grey gradient */
 }
 
 body {
   @apply antialiased;
+  background-color: #f0f0f0; /* Muted grey background */
 }
