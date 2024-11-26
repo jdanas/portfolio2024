@@ -90,10 +90,10 @@ const Home = () => {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="CI/CD" className="w-6 h-6 mr-2" />
             CI/CD, Jenkins, GitHub Actions
           </li>
-          <li className="flex items-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" className="w-6 h-6 mr-2" />
+            <li className="flex items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Cloud" className="w-6 h-6 mr-2" />
             AWS, Azure, Google Cloud
-          </li>
+            </li>
         </ul>
       </div>
     </div>
