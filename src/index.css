@@ -9,4 +9,5 @@
 body {
   @apply antialiased;
   background-color: #f0f0f0; /* Muted grey background */
+  font-family: 'Inter', sans-serif;
 }

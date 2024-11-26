@@ -14,13 +14,13 @@ const Home = () => {
       </p>
       <div className="space-x-4 mb-8">
         <a
-          href="#contact"
+          href="/contact"
           className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors"
         >
           Get in Touch
         </a>
         <a
-          href="#projects"
+          href="/projects"
           className="bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-3 rounded-lg transition-colors"
         >
           View My Work

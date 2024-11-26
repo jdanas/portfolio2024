@@ -6,19 +6,13 @@ export default {
   ],
   theme: {
     extend: {
-      animation: {
-        'gradient': 'gradient 8s linear infinite',
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
       },
-      keyframes: {
-        gradient: {
-          '0%, 100%': {
-            'background-size': '200% 200%',
-            'background-position': 'left center'
-          },
-          '50%': {
-            'background-size': '200% 200%',
-            'background-position': 'right center'
-          },
+      colors: {
+        monotone: {
+          background: '#ffffff', // White background
+          text: '#000000', // Black text
         },
       },
     },
