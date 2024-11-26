@@ -11,20 +11,27 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Project One",
-    description: "A full-stack web application with real-time features",
-    technologies: ["React", "TypeScript", "Node.js", "Socket.IO"],
-    imageUrl: "https://via.placeholder.com/300x200",
-    githubUrl: "https://github.com/yourusername/project-one",
-    liveUrl: "https://project-one.com"
+    title: "HarpersBazaar Singapore",
+    description: "Real-time fashion news and updates from harpersbazaar running web 2.0",
+    technologies: ["React", "TypeScript", "Node.js", "CUE", "Playwright"],
+    imageUrl: "./src/assets/hbsbg.png",
+    githubUrl: "https://github.com/sphtech/web2-mag/",
+    liveUrl: "https://harpersbazaar.com.sg"
   },
   {
-    title: "Project Two",
-    description: "Mobile-first e-commerce platform",
-    technologies: ["React", "Redux", "Tailwind CSS", "Stripe"],
-    imageUrl: "https://via.placeholder.com/300x200",
-    githubUrl: "https://github.com/yourusername/project-two",
-    liveUrl: "https://project-two.com"
+    title: "Home And Decor Singapore",
+    description: "is an interactive, style-driven interior design website for new home owners, renovation professionals and furnishing enthusiasts",
+    technologies: ["React", "Typescript", "Tailwind CSS", "CUE", "Playwright"],
+    imageUrl: "./src/assets/hndsg.png",
+    githubUrl: "https://github.com/sphtech/web2-mag/",
+    liveUrl: "https://www.homeanddecor.com.sg/"
+  },
+  {
+    title: "Peak Singapore",
+    description: "is a business-lifestyle publication rooted in meaningfulness, curating stories that inspire leaders and visionaries to lead impactful lives",
+    technologies: ["React", "TypeScript", "Node.js", "CUE" , "Playwright"],
+    imageUrl: "./src/assets/peaksg.png",
+    githubUrl: "https://github.com/sphtech/web2-mag/"
   }
 ];
 
